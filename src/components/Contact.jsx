@@ -3,13 +3,13 @@ import coming from '../assets/cs.json'
 
 function Contact() {
   return (
-    <div className="section pb-52 items-center mx-auto md:ml-24  flex font-second flex-col md:flex-row">
+    <div className="section pb-20 items-center mx-auto md:ml-24  flex font-second flex-col md:flex-row">
       {/* Left Side */}
       <div className="md:w-1/2  md:mx-8">
-        <p className="text-2xl font-bold font-second pt-8"> Coming Soon</p>
-        <h1 className="header py-10 "> GET NOTIFIED WHEN WE LAUNCH</h1>
+        <p className="text-2xl font-bold font-second mx-8 md:mx-0 pt-8"> Coming Soon</p>
+        <h1 className="header text-left mx-8 md:mx-0 py-10 "> GET NOTIFIED WHEN WE LAUNCH</h1>
 
-        <form className="">
+        <form className="mx-8 ">
           <div className="relative items-center mx-auto  ">
             <input
               placeholder="youre-mail"
@@ -23,12 +23,12 @@ function Contact() {
             </button>
           </div>
         </form>
-        <div className="py-8">
-          <span className="">*Don`t worry we weill not spam you :</span>
+        <div className="py-8 mx-8">
+          <p className="font-second">*Do not worry we will not spam you {" :)"} </p>
         </div>
       </div>
       {/* Right Side */}
-      <div className="w-1/2">
+      <div className="hidden md:block w-1/2">
         <div>
             <Lottie animationData={coming} />
               </div>

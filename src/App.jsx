@@ -4,6 +4,7 @@ import Offers from "./components/Offers";
 import Benefits from "./components/Benefits";
 import How from "./components/How";
 import Contact from "./components/Contact";
+import Footer from "./components/Foooter";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Benefits />
       <How />
       <Contact />
+      <Footer />
     </div>
     // <div className="text-center flex my-auto mx-auto justify-center font-bold bg-red-500 h-screen items-center" >
     //   <p className=""> if you can read this you are too close </p>
