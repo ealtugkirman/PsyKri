@@ -3,6 +3,8 @@ import { BiUniversalAccess } from "react-icons/bi";
 import { AiFillEye } from "react-icons/ai";
 import { BsPersonFillGear } from "react-icons/bs";
 import { GiTelepathy } from "react-icons/gi";
+// import Lottie from 'lottie-react'
+// import wave from '../assets/wave2.json'
 
 function Offers() {
   return (
@@ -11,7 +13,8 @@ function Offers() {
       <p className="secondheader my-4 ">
         Psy-Kri for Psychologist Use{" "}
         <span className="text-red-500 underline"> Only</span>
-      </p>
+          </p>
+          
       <div className="container  mt-12 mx-auto font-bold font-second  max-w-7xl p-2 md:p-2">
         {/* <!-- Grid Container --> */}
         <div className="text-white grid gap-6 grid-cols-1 md:grid-cols-4 md:grid-row-2">
