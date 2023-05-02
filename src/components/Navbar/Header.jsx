@@ -23,7 +23,7 @@ function Navbar() {
   return (
     <div className="max-w-8xl bg-white  py-3 md:py-4 border-b-2 border-black">
       <nav className="flex items-center mx-8 font-first  justify-between text-black">
-        <img src={Logo} alt="seo" />
+        <h1 className="text-4xl font-second">Psy-Kri.ai</h1>
         <div className="hidden   md:flex md:space-x-8">
           <div className="group">
             <a href="#">OUR OFFERRINGS</a>

@@ -31,6 +31,21 @@
   .icon {
     @apply text-4xl;
   }
+  .how {
+    @apply border-black border-2 rounded-xl
+  }
+  .number {
+    @apply  bg-black text-white rounded-full p-1 m-4
+  }
+  .how {
+    @apply pt-4
+  }
+  .howheader{
+    @apply text-xl font-second  font-extrabold mt-1  pl-4 py-2
+  }
+   .howp{
+    @apply text-lg  font-second  pl-4 py-2 pb-6 mr-4
+  }
 }
 
 .hamburger {

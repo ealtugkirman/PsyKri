@@ -2,6 +2,7 @@ import Lottie from "lottie-react";
 import wave from "../assets/wave.json";
 import { TypeAnimation } from "react-type-animation";
 import brain from "../assets/brain.json";
+import { FiArrowRightCircle } from "react-icons/fi";
 
 function Hero() {
   return (
@@ -13,7 +14,8 @@ function Hero() {
           A WORLD WE UNDERSTAND{" "}
         </span>
         <span className="text-5xl md:text-7xl font-bold">
-          EACH OTHER{ " " } <span className="md:hidden">
+          EACH OTHER{" "}
+          <span className="md:hidden">
             <br />
           </span>
           <TypeAnimation
@@ -25,8 +27,13 @@ function Hero() {
           />
         </span>
         <div className="pt-2">
-          <button onClick={null} className="mt-2 flex mx-auto bg-black md:bg-transparent  md:mx-0  text-white md:text-blue-600 border border-blue-600 border-1 rounded-xl p-1 px-4 ">
+          <button
+            onClick={null}
+            className="mt-2  items-center text-xl flex mx-auto bg-black hover:bg-blue-700   md:mx-0  text-white  border border-blue-600 border-1 rounded-xl p-1 px-4 ">
             Explore Technology
+            <div className="ml-3 mt-1 text-white">
+              <FiArrowRightCircle />
+            </div>
           </button>
         </div>
       </div>
