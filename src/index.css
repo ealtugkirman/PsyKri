@@ -9,6 +9,30 @@
   src: url("assets/font/PPTelegraf-UltraLight.otf") format("opentype");
 }
 
+@layer base {
+  .text-gradient {
+    @apply text-transparent bg-gradient-to-r from-blue-900 bg-clip-text via-red-900 to-black text-5xl;
+  }
+  .section {
+    @apply mx-8 font-first;
+  }
+  .header {
+    @apply text-5xl md:text-7xl text-center md:text-left text-gradient font-first font-bold;
+  }
+  .secondheader {
+    @apply text-xl md:text-3xl  font-second text-center md:text-left;
+  }
+  .thirdheader {
+    @apply text-3xl md:text-4xl font-first text-left font-bold pb-4
+  }
+  .fourthheader {
+    @apply text-2xl md:text-2xl font-second
+  }
+  .icon {
+    @apply text-4xl;
+  }
+}
+
 .hamburger {
   cursor: pointer;
   width: 24px;
@@ -21,7 +45,7 @@
 .hamburger-middle,
 .hamburger-bottom {
   position: absolute;
-   width: 24px;
+  width: 24px;
   height: 2px;
   top: 0;
   left: 0;
@@ -35,21 +59,21 @@
 }
 
 .hamburger-bottom {
-transform: translateY(14px);
+  transform: translateY(14px);
 }
 
 .open {
   transform: rotate(90deg);
 }
 
-.open  .hamburger-top {
-  transform: rotate(45deg) translateY(6px) translateX(6px)
-} 
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
 
 .open .hamburger-middle {
   display: none;
 }
 
-.open  .hamburger-bottom {
-  transform: rotate(-45deg) translateY(6px) translateX(-6px)
-} 
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}

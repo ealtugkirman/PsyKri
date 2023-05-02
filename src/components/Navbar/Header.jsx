@@ -21,7 +21,7 @@ function Navbar() {
   }
 
   return (
-    <div className="max-w-8xl bg-blue-50  py-3 md:py-4 border-b-2 border-black">
+    <div className="max-w-8xl bg-white  py-3 md:py-4 border-b-2 border-black">
       <nav className="flex items-center mx-8 font-first  justify-between text-black">
         <img src={Logo} alt="seo" />
         <div className="hidden   md:flex md:space-x-8">

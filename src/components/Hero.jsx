@@ -5,11 +5,11 @@ import brain from "../assets/brain.json";
 
 function Hero() {
   return (
-    <div className="max-w-8xl font-first">
+    <div className="font-first max-w-8xl">
       {/* Header */}
       <div className="space-y-4 mt-12 text-center md:text-left md:space-y-4 mx-8 md:mt-24">
-        <h3 className="text-lg  md:text-4xl">WE ARE DRIVEN BY ONE MISSION</h3>
-        <span className="flex-row text-5xl flex md:text-7xl font-bold ">
+        <h3 className="text-lg   md:text-4xl">WE ARE DRIVEN BY ONE MISSION</h3>
+        <span className="flex-row text-gradient flex md:text-7xl font-bold ">
           A WORLD WE UNDERSTAND{" "}
         </span>
         <span className="text-5xl md:text-7xl font-bold">
