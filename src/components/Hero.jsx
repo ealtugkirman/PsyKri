@@ -6,7 +6,7 @@ import { FiArrowRightCircle } from "react-icons/fi";
 
 function Hero() {
   return (
-    <div className="font-first max-w-8xl">
+    <div className="font-first md:pt-8  max-w-8xl">
       {/* Header */}
       <div className="space-y-4 mt-12 text-center md:text-left md:space-y-4 mx-8 md:mt-24">
         <h3 className="text-lg   md:text-4xl">WE ARE DRIVEN BY ONE MISSION</h3>
@@ -29,7 +29,7 @@ function Hero() {
         <div className="pt-2">
           <button
             onClick={null}
-            className="mt-2  items-center text-xl flex mx-auto bg-black hover:bg-blue-700   md:mx-0  text-white  border border-blue-600 border-1 rounded-xl p-1 px-4 ">
+            className="mt-2 z-10 items-center text-xl flex mx-auto bg-black hover:bg-blue-700   md:mx-0  text-white  border border-blue-600 border-1 rounded-xl p-1 px-4 ">
             Explore Technology
             <div className="ml-3 mt-1 text-white">
               <FiArrowRightCircle />
@@ -37,7 +37,7 @@ function Hero() {
           </button>
         </div>
       </div>
-      <div className="right-0 md:right-10 absolute -mt-52   md:-mt-80 ">
+      <div className="right-0  absolute -mt-60  md:-mt-80 ">
         <Lottie className="" animationData={wave} />
       </div>
       {/* Banner Text */}

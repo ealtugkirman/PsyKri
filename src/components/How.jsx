@@ -1,6 +1,6 @@
 function How() {
   return (
-    <div className="section border my-52">
+    <div className="section my-52">
       {/* Header */}
       <div className="">
         <h1 className="header">HOW PYS-KRI WORKS</h1>

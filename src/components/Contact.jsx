@@ -12,7 +12,7 @@ function Contact() {
         <form className="mx-8 ">
           <div className="relative items-center mx-auto  ">
             <input
-              placeholder="youre-mail"
+              placeholder="Enter your email adress"
               className="block w-full p-4 text-sm text-gray-900 border-2 border-black rounded-xl bg-gray-50"
               required
             />
