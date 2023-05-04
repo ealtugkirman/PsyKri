@@ -105,7 +105,7 @@ function Contact() {
         </div>
       </div>
       {/* Right Side */}
-      <div className="hidden md:block w-1/2">
+      <div className="md:block w-1/2">
         <div>
           <Lottie animationData={coming} />
         </div>
