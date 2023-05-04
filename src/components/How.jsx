@@ -9,7 +9,7 @@ function How() {
         </p>
       </div>
       {/* Grid */}
-      <div className="mt-10">
+      <div className="mt-10  ">
         <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-3 md:grid-rows-2 gap-8 md:gap-4  mx-auto">
           <div className="how row-span-1 col-span-1">
             <span className="number">01</span>
@@ -55,7 +55,7 @@ function How() {
             <p className="howp">
               The application offers suggestions using the AI based on the
               patient`s profile. Suggestions may cover different topics such as
-              medications, therapies, or other treatment options depending on
+              therapies, or other treatment options depending on
               the patient`s diagnosis.
             </p>
           </div>

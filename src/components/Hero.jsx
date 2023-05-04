@@ -19,7 +19,7 @@ function Hero() {
             <br />
           </span>
           <TypeAnimation
-            sequence={["BETTER", 2000, "FASTER", 2000, "EFFICENT", 2000]}
+            sequence={["BETTER", 1500, "FASTER", 1500, "COMPLETELY", 1500, "ADVANCED", 1500, "PERFECTLY", 1500]}
             speed={50}
             className=""
             wrapper="span"
@@ -38,7 +38,7 @@ function Hero() {
         </div>
       </div>
       <div className="right-0  absolute -mt-60  md:-mt-80 ">
-        <Lottie className="" animationData={wave} />
+        <Lottie className="opacity-30 md:opacity-100" animationData={wave} />
       </div>
       {/* Banner Text */}
       <div className="bg-black mx-auto md:space-x-12  z-10 justify-center items-center h-48 mt-12 md:mt-20 opacity-80 flex flex-row">

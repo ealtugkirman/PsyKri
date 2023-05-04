@@ -35,13 +35,13 @@
     @apply border-black border-2 rounded-xl
   }
   .number {
-    @apply  bg-black text-white rounded-full p-1 m-4
+    @apply  bg-black text-white rounded-full p-2 m-4
   }
   .how {
-    @apply pt-4
+    @apply pt-8
   }
   .howheader{
-    @apply text-xl font-second  font-extrabold mt-1  pl-4 py-2
+    @apply text-xl font-second  font-extrabold mt-4  pl-4 py-2
   }
    .howp{
     @apply text-lg  font-second  pl-4 py-2 pb-6 mr-4

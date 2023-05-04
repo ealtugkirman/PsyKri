@@ -1,5 +1,6 @@
-import Logo from "../../assets/logo.svg";
 import { useRef, useEffect } from "react";
+import Lottie from "lottie-react";
+import wave from "../../assets/wave.json";
 
 function Navbar() {
   const btnRef = useRef(null);
@@ -22,8 +23,11 @@ function Navbar() {
 
   return (
     <div className="max-w-8xl bg-white  py-3 md:py-4 border-b-2 border-black">
-      <nav className="flex items-center mx-8 font-first  justify-between text-black">
-        <h1 className="text-4xl font-second">Psy-Kri.ai</h1>
+      <nav className="flex items-center mr-8 font-first  justify-between text-black">
+        <div className="flex md:-ml-12   lg:-ml-36 lg:-mr-32 flex-row justify-center items-center">
+          <Lottie  className="w-1/12"   animationData={wave} />
+          <h1 className="text-4xl font-second">Psy-Kri.ai</h1>
+        </div>
         <div className="hidden   md:flex md:space-x-8">
           <div className="group">
             <a href="#">OUR OFFERRINGS</a>
@@ -43,8 +47,9 @@ function Navbar() {
           </div>
         </div>
         <div>
-          <button
-          className="hidden md:flex text-red-500 hover:underline animate-pulse ">ENROLL WAITLIST</button>
+          <button className="hidden md:flex text-red-500 hover:underline animate-pulse ">
+            ENROLL WAITLIST
+          </button>
         </div>
         <div className="md:hidden">
           <button
@@ -61,27 +66,23 @@ function Navbar() {
       <div
         id="menu"
         ref={menuRef}
-        className="absolute z-30 top-0 bottom-0 left-0 flex-col text-center hidden md:hidden w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black">
-        <img
-          src={Logo}
-          className="w-1/2 mb-10 flex justify-center mx-auto"
-          alt=""
-        />
+        className="absolute font-second z-30 font-bold top-0 bottom-0 left-0 flex-col text-center hidden md:hidden w-full min-h-screen py-1 pt-40 space-y-6 text-xl text-white bg-black">
+        <div className="absolute w-1/2 top-20 right-0">
+          <Lottie className="" animationData={wave} />
+        </div>
         <a href="#" className="hover:text-pink-500">
-          About
+          OUR OFFERINGS
         </a>
         <a href="#" className="hover:text-pink-500">
-          Careers
+          SERVICES
         </a>
         <a href="#" className="hover:text-pink-500">
-          Events
+          ABOUT
         </a>
         <a href="#" className="hover:text-pink-500">
-          Products
+          GET CONTACT
         </a>
-        <a href="#" className="hover:text-pink-500">
-          Support
-        </a>
+        <h1 className="text-5xl font-second text-center pt-48 ">Pys-Kri.ai</h1>
       </div>
     </div>
   );
