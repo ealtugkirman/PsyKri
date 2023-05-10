@@ -8,7 +8,7 @@ import { GiTelepathy } from "react-icons/gi";
 
 function Offers() {
   return (
-    <div className="py-60  md:py-52 section">
+    <div id="offers"  className="py-60 md:py-52 section">
       <h3 className="header">WHAT PSY-KRI OFFERS?</h3>
       <p className="secondheader my-4 ">
         Psy-Kri for Psychologist Use{" "}

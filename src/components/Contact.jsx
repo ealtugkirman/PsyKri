@@ -55,7 +55,7 @@ function Contact() {
   };
 
   return (
-    <div className="section pb-20 items-center mx-auto md:ml-24  flex font-second flex-col md:flex-row">
+    <div id="contact" className="section pb-20 items-center mx-auto md:ml-24  flex font-second flex-col md:flex-row">
       {/* Left Side */}
       <div className="md:w-1/2  md:mx-8">
         <p className="text-2xl font-bold font-second mx-8 md:mx-0 pt-8">

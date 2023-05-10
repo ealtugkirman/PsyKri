@@ -1,6 +1,7 @@
 import { useRef, useEffect } from "react";
 import Lottie from "lottie-react";
 import wave from "../../assets/wave.json";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const btnRef = useRef(null);
@@ -25,24 +26,24 @@ function Navbar() {
     <div className="max-w-8xl bg-white  py-3 md:py-4 border-b-2 border-black">
       <nav className="flex items-center mr-8 font-first  justify-between text-black">
         <div className="flex md:-ml-12   lg:-ml-36 lg:-mr-32 flex-row justify-center items-center">
-          <Lottie  className="w-1/12"   animationData={wave} />
+          <Lottie className="w-1/12" animationData={wave} />
           <h1 className="text-4xl font-second">Psy-Kri.ai</h1>
         </div>
         <div className="hidden   md:flex md:space-x-8">
           <div className="group">
-            <a href="#">OUR OFFERRINGS</a>
+            <Link to="offers">OUR OFFERRINGS</Link>
             <div className="mx-2 group-hover:border-b group-hover:border-black"></div>
           </div>
           <div className="group">
-            <a href="#">SERVICES</a>
+            <Link to="benefit">ABOUT</Link>
             <div className="mx-2 group-hover:border-b group-hover:border-black"></div>
           </div>
           <div className="group">
-            <a href="#">ABOUT</a>
+            <Link to="how">HOW IT WORKS</Link>
             <div className="mx-2 group-hover:border-b group-hover:border-black"></div>
           </div>
           <div className="group">
-            <a href="#">CONTACT</a>
+            <Link to="contact">CONTACT</Link>
             <div className="mx-2 group-hover:border-b group-hover:border-black"></div>
           </div>
         </div>
@@ -70,18 +71,18 @@ function Navbar() {
         <div className="absolute w-1/2 top-20 right-0">
           <Lottie className="" animationData={wave} />
         </div>
-        <a href="#" className="hover:text-pink-500">
+        <Link to="offers"  clLinkssName="hover:text-pink-500">
           OUR OFFERINGS
-        </a>
-        <a href="#" className="hover:text-pink-500">
-          SERVICES
-        </a>
-        <a href="#" className="hover:text-pink-500">
+        </Link>
+        <Link to="benefit"  className="hover:text-pink-500">
           ABOUT
-        </a>
-        <a href="#" className="hover:text-pink-500">
-          GET CONTACT
-        </a>
+        </Link>
+        <Link to="how"  className="hover:text-pink-500">
+          HOW IT WORKS
+        </Link>
+        <Link to=""  className="hover:text-pink-500">
+          CONTACT
+        </Link>
         <h1 className="text-5xl font-second text-center pt-48 ">Pys-Kri.ai</h1>
       </div>
     </div>

@@ -1,6 +1,6 @@
 function How() {
   return (
-    <div className="section my-52">
+    <div id="how" className="section my-52">
       {/* Header */}
       <div className="">
         <h1 className="header">HOW PYS-KRI WORKS</h1>
@@ -55,8 +55,8 @@ function How() {
             <p className="howp">
               The application offers suggestions using the AI based on the
               patient`s profile. Suggestions may cover different topics such as
-              therapies, or other treatment options depending on
-              the patient`s diagnosis.
+              therapies, or other treatment options depending on the patient`s
+              diagnosis.
             </p>
           </div>
           <div className="how">

@@ -2,7 +2,7 @@ import maze from "../assets/maze.svg";
 
 function Benefits() {
   return (
-    <div className="section border-t-2 border-black py-12 border-b-2 space-y-12 md:space-y-0 md:mx-20 flex flex-col md:flex-row ">
+    <div id="benefit" className="section border-t-2 border-black py-12 border-b-2 space-y-12 md:space-x-10 md:space-y-0 md:mx-20 flex flex-col md:flex-row ">
       {/* Left Side */}
       <div className="md:w-1/2 flex space-y-8 md:space-y-0 flex-col">
         <h1 className="header text-gradient font-second">PSY-KRI WILL BE YOUR BEST ASSIANT</h1>
