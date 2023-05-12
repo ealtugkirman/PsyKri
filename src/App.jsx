@@ -1,10 +1,10 @@
-import Navbar from "./components/Navbar/Header";
+import Navbar from "./components/Layout/Header";
 import Hero from "./components/Hero";
 import Offers from "./components/Offers";
 import Benefits from "./components/Benefits";
 import How from "./components/How";
 import Contact from "./components/Contact";
-import Footer from "./components/Foooter";
+import Footer from "./components/Layout/Foooter";
 
 const App = () => {
   return (
@@ -17,9 +17,6 @@ const App = () => {
       <Contact />
       <Footer />
     </div>
-    // <div className="text-center flex my-auto mx-auto justify-center font-bold bg-red-500 h-screen items-center" >
-    //   <p className=""> if you can read this you are too close </p>
-    // </div>
   );
 };
 
