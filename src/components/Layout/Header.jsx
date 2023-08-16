@@ -49,7 +49,7 @@ function Navbar() {
         </div>
         <div>
           <button className="hidden md:flex text-red-500 hover:underline animate-pulse ">
-            ENROLL WAITLIST
+            <Link to="contact"> ENROLL WAITLIST</Link>
           </button>
         </div>
         <div className="md:hidden">
@@ -71,16 +71,16 @@ function Navbar() {
         <div className="absolute w-1/2 top-20 right-0">
           <Lottie className="" animationData={wave} />
         </div>
-        <Link to="offers"  clLinkssName="hover:text-pink-500">
+        <Link to="offers" clLinkssName="hover:text-pink-500">
           OUR OFFERINGS
         </Link>
-        <Link to="benefit"  className="hover:text-pink-500">
+        <Link to="benefit" className="hover:text-pink-500">
           ABOUT
         </Link>
-        <Link to="how"  className="hover:text-pink-500">
+        <Link to="how" className="hover:text-pink-500">
           HOW IT WORKS
         </Link>
-        <Link to=""  className="hover:text-pink-500">
+        <Link to="" className="hover:text-pink-500">
           CONTACT
         </Link>
         <h1 className="text-5xl font-second text-center pt-48 ">Pys-Kri.ai</h1>
